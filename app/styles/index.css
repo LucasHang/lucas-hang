@@ -4,9 +4,29 @@
  * pages!
  */
 
- body {
-    background-image: var(--gradient-background);
-  }
+ @keyframes background-lights {
+    10% { background-image: url(../../public/images/enhanced-background-2.svg), url(../../public/images/enhanced-background-3.svg); }
+    20% { background-image: url(../../public/images/enhanced-background-3.svg), url(../../public/images/enhanced-background-4.svg); }
+    30% { background-image: url(../../public/images/enhanced-background-4.svg), url(../../public/images/enhanced-background-5.svg); }
+    40% { background-image: url(../../public/images/enhanced-background-5.svg), url(../../public/images/enhanced-background-6.svg); }
+    50% { background-image: url(../../public/images/enhanced-background-6.svg), url(../../public/images/enhanced-background-7.svg); }
+    60% { background-image: url(../../public/images/enhanced-background-7.svg), url(../../public/images/enhanced-background-8.svg); }
+    70% { background-image: url(../../public/images/enhanced-background-8.svg), url(../../public/images/enhanced-background-9.svg); }
+    80% { background-image: url(../../public/images/enhanced-background-9.svg), url(../../public/images/enhanced-background-10.svg); }
+    90% { background-image: url(../../public/images/enhanced-background-10.svg); }
+    100% { background-image: url(../../public/images/enhanced-background.svg); }
+ }
+
+body {
+    background-image: url(../../public/images/enhanced-background.svg), url(../../public/images/enhanced-background-2.svg);
+    background-size: cover;
+
+    animation-name: background-lights;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
   
   .container {
     min-height: inherit;
@@ -21,8 +41,7 @@
   }
   
   .content {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem;
   }
   
   h1 {
