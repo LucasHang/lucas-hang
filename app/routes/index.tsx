@@ -17,6 +17,14 @@ export default function Index() {
         className="content"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
       >
+        <img
+          src="https://media.licdn.com/dms/image/C4D03AQG15QW6B1NYfg/profile-displayphoto-shrink_400_400/0/1590855285497?e=1677715200&v=beta&t=29CLRHTofOiR75M_MnoaDDm_vSuR3ICzHQRMAbJOVoI"
+          width={200}
+          height={200}
+          style={{ borderRadius: "50%" }}
+          alt="Lucas Hang using sunglasses"
+        />
+
         <h1>{t("greetings")}</h1>
 
         <p>
