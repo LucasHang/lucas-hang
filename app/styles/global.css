@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800&display=swap');
-  
-  :root {
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
     --navy-blue: hsla(242, 100%, 21%, 1); /* #04006bff */
     --egyptian-blue: hsla(228, 65%, 37%, 1); /* #213a9bff */
     --baby-blue-eyes: hsla(210, 71%, 77%, 1); /* #9bc4eeff */
@@ -16,106 +17,106 @@
     --color-border: hsla(228, 65%, 37%, 1);
     --color-invalid: hsla(210, 71%, 77%, 1);
     --font-body: -apple-system, "Segoe UI", Helvetica Neue, Helvetica,
-      Roboto, Arial, sans-serif, system-ui, "Apple Color Emoji",
-      "Segoe UI Emoji";
-    --font-display: Inconsolata, var(--font-body);
-  }
-  
-  html {
+        Roboto, Arial, sans-serif, system-ui, "Apple Color Emoji",
+        "Segoe UI Emoji";
+    --font-display: Alexandria, var(--font-body);
+}
+
+html {
     box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
+}
+
+*,
+*::before,
+*::after {
     box-sizing: inherit;
-  }
-  
-  :-moz-focusring {
+}
+
+:-moz-focusring {
     outline: auto;
-  }
-  
-  :focus {
+}
+
+:focus {
     outline: var(--color-links) solid 2px;
     outline-offset: 2px;
-  }
-  
-  html,
-  body {
+}
+
+html,
+body {
     padding: 0;
     margin: 0;
     color: var(--color-foreground);
     background-color: var(--color-background);
-  }
-  
-  [data-light] {
+}
+
+[data-light] {
     --color-invalid: hsl(356, 70%, 39%);
     color: var(--color-background);
     background-color: var(--color-foreground);
-  }
-  
-  body {
+}
+
+body {
     font-family: var(--font-display);
     line-height: 1.5;
     background-repeat: no-repeat;
     min-height: 100vh;
     min-height: calc(100vh - env(safe-area-inset-bottom));
-  }
-  
-  a {
+}
+
+a {
     color: var(--color-links);
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: var(--color-links-hover);
     text-decoration: underline;
-  }
-  
-  hr {
+}
+
+hr {
     display: block;
     height: 1px;
     border: 0;
     background-color: var(--color-border);
     margin-top: 2rem;
     margin-bottom: 2rem;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-display);
     margin: 0;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-  
-  h3 {
+}
+
+h3 {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-  
-  h4 {
+}
+
+h4 {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-  
-  h5,
-  h6 {
+}
+
+h5,
+h6 {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
+}
   
   .sr-only {
     position: absolute;
@@ -135,6 +136,22 @@
     max-width: calc(100% - var(--gutter) * 2);
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .container {
+    min-height: inherit;
+  }
+  
+  .container,
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    padding: 3rem;
   }
   
   /* buttons */

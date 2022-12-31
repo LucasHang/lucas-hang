@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { json } from "@remix-run/node";
 import type { MetaFunction, LinksFunction, LoaderArgs } from "@remix-run/node";
 import {
@@ -9,7 +10,7 @@ import {
   ScrollRestoration,
   useLoaderData,
 } from "@remix-run/react";
-import { useChangeLanguage } from "remix-i18next";
+// import { useChangeLanguage } from "remix-i18next";
 import { useTranslation } from "react-i18next";
 import i18next from "~/i18next.server";
 
@@ -65,6 +66,9 @@ export default function App() {
   // language, this locale will change and i18next will load the correct
   // translation files
   //   useChangeLanguage(locale);
+  useEffect(() => {
+    i18n.changeLanguage(locale);
+  }, [locale, i18n]);
 
   return (
     <html lang={locale} dir={i18n.dir()}>
