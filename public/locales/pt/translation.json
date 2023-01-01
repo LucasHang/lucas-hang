@@ -1,4 +1,12 @@
 {
-    "greetings": "Olá, meu nome é Lucas Hang",
-    "presentation": "Comecei minha busca por conhecimento individual com cursos de aprendizagem industrial, na área da informática. Hoje em dia trabalho na empresa Pedidos10 e a cada dia evolúo mais corrigindo erros, quebrando paradígmas e aprendendo novas tecnologias. Sei que consigo trazer mais conhecimento e também aprender com meus pares. Trabalho para que o produto da empresa seja mais resiliente, valorizado e seguro."
+    "greetings": "Olá, meu nome é ",
+    "presentation": "Comecei minha busca por conhecimento individual com cursos de aprendizagem industrial, na área da informática. Hoje em dia trabalho na empresa Pedidos10 e a cada dia evolúo mais corrigindo erros, quebrando paradígmas e aprendendo novas tecnologias. Sei que consigo trazer mais conhecimento e também aprender com meus pares. Trabalho para que o produto da empresa seja mais resiliente, valorizado e seguro.",
+    "questions_title": "Pergunte",
+    "question_education": "Qual seu nível de formação?",
+    "question_experience": "Quais são suas experiências?",
+    "question_skill": "Quais são suas principais habilidades?",
+    "question_resume": "Posso baixar uma cópia do seu currículo?",
+    "question_contact": "Como entro em contato?",
+    "question_community": "Você contribui com a comunidade de alguma forma?",
+    "questions_helper": "Você pode navegar pelo número da pergunta, se quiser."
 }

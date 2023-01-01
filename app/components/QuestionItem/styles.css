@@ -1,0 +1,29 @@
+.question-item-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    place-items: center stretch;
+
+    background-color: var(--color--content-background);
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    padding: 6px 8px;
+}
+
+.question-item-container:hover {
+    border: 1px solid var(--orange-pantone);
+    text-decoration: none;
+
+    transition: border 0.2s;
+}
+
+.question-item-number {
+    width: 8px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.question-item-text {
+    border-left: 1px solid var(--orange-pantone);
+    padding-left: 8px;
+}

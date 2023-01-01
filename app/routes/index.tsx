@@ -19,7 +19,9 @@ export default function Index() {
           alt="Lucas Hang using sunglasses"
         />
 
-        <h1>{t("greetings")}</h1>
+        <h1>
+          {t("greetings")} <span className="highlight-text">Lucas Hang</span>
+        </h1>
 
         <p>{t("presentation")}</p>
       </div>

@@ -1,4 +1,12 @@
 {
-    "greetings": "Hello, my name is Lucas Hang",
-    "presentation": "I started my search for individual knowledge with industrial learning courses in the area of ​​informatics. Nowadays I work at the company Pedidos10 and every day I evolve more correcting mistakes, breaking paradigms and learning new technologies. My current challenge is to lead the development team, an area in which I intend to pursue a career. I know I can bring more knowledge and also learn from my peers. I work to make the company's product more resilient, valued and safe."
+    "greetings": "Hello, my name is ",
+    "presentation": "I started my search for individual knowledge with industrial learning courses in the area of ​​informatics. Nowadays I work at the company Pedidos10 and every day I evolve more correcting mistakes, breaking paradigms and learning new technologies. My current challenge is to lead the development team, an area in which I intend to pursue a career. I know I can bring more knowledge and also learn from my peers. I work to make the company's product more resilient, valued and safe.",
+    "questions_title": "Ask a question",
+    "question_education": "What is your education degree?",
+    "question_experience": "How much experience do you have?",
+    "question_skill": "What are your main skills?",
+    "question_resume": "May I download a copy of your resume?",
+    "question_contact": "How do I get in touch?",
+    "question_community": "Do you contribute to the community in some way?",
+    "questions_helper": "You can navigate by the question number, if you will."
 }
