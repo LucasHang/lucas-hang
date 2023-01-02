@@ -17,13 +17,14 @@ import i18next from "~/i18next.server";
 import globalStylesUrl from "./styles/global.css";
 import globalMediumStylesUrl from "./styles/global-medium.css";
 import globalLargeStylesUrl from "./styles/global-large.css";
+import Questions, { links as questionsLinks } from "./components/Questions";
 
-export let loader = async ({ request }: LoaderArgs) => {
-  let locale = await i18next.getLocale(request);
+export const loader = async ({ request }: LoaderArgs) => {
+  const locale = await i18next.getLocale(request);
   return json({ locale });
 };
 
-export let handle = {
+export const handle = {
   // In the handle export, we can add a i18n key with namespaces our route
   // will need to load. This key can be a single string or an array of strings.
   // TIP: In most cases, you should set this to your defaultNS from your i18n config
@@ -53,6 +54,7 @@ export const links: LinksFunction = () => {
       href: globalLargeStylesUrl,
       media: "screen and (min-width: 1024px)",
     },
+    ...questionsLinks(),
   ];
 };
 
@@ -77,7 +79,11 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Outlet />
+        <main className="container">
+          <Outlet />
+
+          <Questions />
+        </main>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

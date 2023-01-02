@@ -118,7 +118,7 @@ h6 {
     line-height: 1.25rem;
 }
   
-  .sr-only {
+.sr-only {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -128,35 +128,61 @@ h6 {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
-  }
+}
   
-  .container {
+.container {
     --gutter: 16px;
+
     width: 1280px;
     max-width: calc(100% - var(--gutter) * 2);
+    min-height: inherit;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    place-items: center;
+    gap: 1.5rem;
+
     margin-right: auto;
     margin-left: auto;
-  }
+}
 
-  .container {
-    min-height: inherit;
-  }
+@media screen and (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
   
-  .container,
-  .content {
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .content {
+    
+    background-color: var(--color--content-background);
+
     padding: 3rem;
-  }
+}
 
 .highlight-text {
     color: var(--mauve);
     white-space: nowrap;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color-background); 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--baby-blue-eyes); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 163, 225); 
 }
   
   /* buttons */

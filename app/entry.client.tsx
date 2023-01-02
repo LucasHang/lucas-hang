@@ -12,11 +12,11 @@ function hydrate() {
   startTransition(() => {
     hydrateRoot(
       document,
-      <StrictMode>
-        <I18nextProvider i18n={i18next}>
+      <I18nextProvider i18n={i18next}>
+        <StrictMode>
           <RemixBrowser />
-        </I18nextProvider>
-      </StrictMode>
+        </StrictMode>
+      </I18nextProvider>
     );
   });
 }
@@ -56,4 +56,6 @@ if (!i18next.isInitialized)
         // https://caniuse.com/requestidlecallback
         window.setTimeout(hydrate, 1);
       }
+
+      return;
     });

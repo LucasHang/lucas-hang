@@ -19,6 +19,12 @@ const QUESTIONS = [
   { number: 6, textKey: "question_community", goTo: "articles" },
 ];
 
+/**
+ * @todo Indicar question que está atualmente ou esconder ela
+ * @todo Quando fora da home, mostrar opção 0 - Voltar para página inicial
+ * @todo Melhorar indicação de visited para resetar quando acessa o site pela primeira vez (entry.client)
+ */
+
 function Questions() {
   const { t } = useTranslation();
   const navigate = useNavigate();

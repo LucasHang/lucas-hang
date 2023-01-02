@@ -6,11 +6,11 @@ export const links: LinksFunction = () => {
   return [{ rel: "stylesheet", href: stylesUrl }];
 };
 
-export default function Skills() {
+export default function Contacts() {
   return (
     <main className="container">
       <div className="content">
-        <h1>Skills page</h1>
+        <h1>Contacts page</h1>
       </div>
     </main>
   );

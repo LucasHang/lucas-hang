@@ -9,10 +9,7 @@ export const links: LinksFunction = () => {
 export default function Experiences() {
   return (
     <main className="container">
-      <div
-        className="content"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
-      >
+      <div className="content">
         <h1>Experiences page</h1>
       </div>
     </main>
