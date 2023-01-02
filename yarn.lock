@@ -1309,6 +1309,11 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
+"@react-icons/all-files@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@react-icons/all-files/-/all-files-4.1.0.tgz#477284873a0821928224b6fc84c62d2534d6650b"
+  integrity sha512-hxBI2UOuVaI3O/BhQfhtb4kcGn9ft12RWAFVMUeNjqqhLsHvFtzIkFaptBJpFDANTKoDfdVoHTKZDlwKCACbMQ==
+
 "@remix-run/dev@^1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@remix-run/dev/-/dev-1.9.0.tgz#2e594d143d47afc29e4bbdee02291649b0766dc6"

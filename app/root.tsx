@@ -59,9 +59,9 @@ export const links: LinksFunction = () => {
 };
 
 export default function App() {
-  let { i18n } = useTranslation();
+  const { i18n } = useTranslation();
   // Get the locale from the loader
-  let { locale } = useLoaderData<typeof loader>();
+  const { locale } = useLoaderData<typeof loader>();
 
   // This hook will change the i18n instance language to the current locale
   // detected by the loader, this way, when we do something to change the

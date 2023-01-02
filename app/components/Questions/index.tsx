@@ -55,7 +55,7 @@ function Questions() {
       <ul>
         {QUESTIONS.map((question) => (
           <li key={question.number}>
-            <Link to={question.goTo}>
+            <Link to={question.goTo} prefetch="intent">
               <QuestionItem
                 number={question.number}
                 text={t(question.textKey)}

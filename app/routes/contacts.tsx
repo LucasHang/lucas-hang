@@ -1,6 +1,6 @@
 import type { LinksFunction } from "@remix-run/node";
 
-import stylesUrl from "~/styles/education.css";
+import stylesUrl from "~/styles/contacts.css";
 
 export const links: LinksFunction = () => {
   return [{ rel: "stylesheet", href: stylesUrl }];

@@ -12,13 +12,12 @@
     50% { background-image: url(../../public/images/enhanced-background-6.svg), url(../../public/images/enhanced-background-7.svg); }
     60% { background-image: url(../../public/images/enhanced-background-7.svg), url(../../public/images/enhanced-background-8.svg); }
     70% { background-image: url(../../public/images/enhanced-background-8.svg), url(../../public/images/enhanced-background-9.svg); }
-    80% { background-image: url(../../public/images/enhanced-background-9.svg), url(../../public/images/enhanced-background-10.svg); }
-    90% { background-image: url(../../public/images/enhanced-background-10.svg); }
-    100% { background-image: url(../../public/images/enhanced-background.svg); }
+    80% { background-image: url(../../public/images/enhanced-background-9.svg) }
+    90% { background-image: url(../../public/images/enhanced-background-1.svg); }
  }
 
 body {
-    background-image: url(../../public/images/enhanced-background.svg), url(../../public/images/enhanced-background-2.svg);
+    background-image: url(../../public/images/enhanced-background-1.svg), url(../../public/images/enhanced-background-2.svg);
     background-size: cover;
 
     animation-name: background-lights;
