@@ -1,15 +1,20 @@
 import type { LinksFunction } from "@remix-run/node";
 import { useTranslation } from "react-i18next";
-import { RiArrowLeftSLine } from "@react-icons/all-files/ri/RiArrowLeftSLine";
 
 import stylesUrl from "~/styles/resumes.css";
-import { Link } from "@remix-run/react";
 import ResumeDownload, {
   links as resumeDownloadLinks,
 } from "~/components/ResumeDownload";
+import ContentHeader, {
+  links as contentHeaderLinks,
+} from "~/components/ContentHeader";
 
 export const links: LinksFunction = () => {
-  return [...resumeDownloadLinks(), { rel: "stylesheet", href: stylesUrl }];
+  return [
+    ...contentHeaderLinks(),
+    ...resumeDownloadLinks(),
+    { rel: "stylesheet", href: stylesUrl },
+  ];
 };
 
 const RESUMES = [
@@ -41,12 +46,7 @@ export default function Resumes() {
 
   return (
     <div className="resumes-container">
-      <div className="resumes-header">
-        <Link to="/">
-          <RiArrowLeftSLine size={30} />
-        </Link>
-        <h2>{t("question_resume")}</h2>
-      </div>
+      <ContentHeader title={t("question_resume")} />
 
       <div className="content">
         <h4>{t("resumes_title")}</h4>

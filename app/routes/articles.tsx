@@ -11,6 +11,7 @@ export default function Articles() {
     <main className="container">
       <div className="content">
         <h1>Articles page</h1>
+        <p>I'm sorry, this page is in development process...</p>
       </div>
     </main>
   );

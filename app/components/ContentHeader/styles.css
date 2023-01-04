@@ -1,0 +1,14 @@
+.resumes-header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    place-items: center start;
+    gap: 1rem;
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+}
+
+.resumes-header a {
+    display: grid;
+    place-items: center;
+}
