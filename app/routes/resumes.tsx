@@ -1,30 +1,28 @@
 import type { LinksFunction } from "@remix-run/node";
 import { useTranslation } from "react-i18next";
 import { RiArrowLeftSLine } from "@react-icons/all-files/ri/RiArrowLeftSLine";
-import { RiDownloadLine } from "@react-icons/all-files/ri/RiDownloadLine";
 
 import stylesUrl from "~/styles/resumes.css";
 import { Link } from "@remix-run/react";
+import ResumeDownload, {
+  links as resumeDownloadLinks,
+} from "~/components/ResumeDownload";
 
 export const links: LinksFunction = () => {
-  return [{ rel: "stylesheet", href: stylesUrl }];
+  return [...resumeDownloadLinks(), { rel: "stylesheet", href: stylesUrl }];
 };
-
-/**
- * @todo Translations
- */
 
 const RESUMES = [
   {
     locale: "en",
-    fileName: "CV-Lucas_Hang-english",
+    fileName: "CV-Lucas_Hang-English",
     title: "Lucas Hang Resume",
     localeCountry: "united-states",
     localeDescription: "English Version",
   },
   {
     locale: "pt",
-    fileName: "CV-Lucas_Hang-portugues",
+    fileName: "CV-Lucas_Hang-Portugues",
     title: "Currículo Lucas Hang",
     localeCountry: "brazil",
     localeDescription: "Versão em Português",
@@ -33,8 +31,6 @@ const RESUMES = [
 
 export default function Resumes() {
   const { t, i18n } = useTranslation();
-
-  console.log("i18n", i18n);
 
   const primaryResume =
     RESUMES.find((r) => r.locale === i18n.language) || RESUMES[0];
@@ -53,58 +49,29 @@ export default function Resumes() {
       </div>
 
       <div className="content">
-        <h4>Com toda certeza!</h4>
+        <h4>{t("resumes_title")}</h4>
 
         <p>
-          Vou tentar te apresentar o currículo para download correspondente a
-          sua lingua. Caso não esteja disponível ainda, será em inglês.
+          {t("resumes_description")}
           <br />
           <small className="helper-text">
-            No entanto, não se preocupe, todas as opções disponíveis de
-            linguagem estarão acessíveis abaixo.
+            {t("resumes_description_helper")}
           </small>
         </p>
 
-        <a
-          href={`/resumes/${primaryResume.fileName}.pdf`}
-          download={primaryResume.fileName}
-          className="resumes-primary-resume"
-        >
-          <RiDownloadLine size={30} />
-          <h6>{primaryResume.title}</h6>
-          <small className="resumes-language">
-            <img
-              src={`/images/${primaryResume.localeCountry}.png`}
-              alt={`${primaryResume.localeCountry} flag`}
-            />
-            {primaryResume.localeDescription}
-          </small>
-        </a>
+        <ResumeDownload primary resumeData={primaryResume} />
 
-        <small className="helper-text">Caso prefira outra versão:</small>
+        <small className="helper-text">
+          {t("resumes_alternative_language")}
+        </small>
 
         <div className="resumes-secondaries-container">
           {secondaryResumes.map((secondaryResume) => (
-            <a
+            <ResumeDownload
               key={secondaryResume.locale}
-              href={`/resumes/${secondaryResume.fileName}.pdf`}
-              download={secondaryResume.fileName}
-              className="resumes-secondary-resume"
-            >
-              <div
-                style={{ display: "flex", alignItems: "center", gap: "0.3rem" }}
-              >
-                <RiDownloadLine size={20} />
-                {secondaryResume.title}
-              </div>
-              <small className="resumes-language">
-                <img
-                  src={`/images/${secondaryResume.localeCountry}.png`}
-                  alt={`${secondaryResume.localeCountry} flag`}
-                />
-                {secondaryResume.localeDescription}
-              </small>
-            </a>
+              primary={false}
+              resumeData={secondaryResume}
+            />
           ))}
         </div>
       </div>

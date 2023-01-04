@@ -1,6 +1,7 @@
 {
     "greetings": "Hello, my name is ",
-    "presentation": "I started my search for individual knowledge with industrial learning courses in the area of ​​informatics. Nowadays I work at the company Pedidos10 and every day I evolve more correcting mistakes, breaking paradigms and learning new technologies. My current challenge is to lead the development team, an area in which I intend to pursue a career. I know I can bring more knowledge and also learn from my peers. I work to make the company's product more resilient, valued and safe.",
+    "presentation": "Over the years, my knowledge increased mostly in a self-taught way. At age 18 I had my first professional opportunity, two years focused in learning and evolution. At age 21 I became Scrum Master, a challenge that has proven to be fortuitous and has brought me closer to Leadership, which I intend to evolve from now on. A diversity of technologies and frameworks I learned, but more valuable than that, communication, responsibility and trust. I know I can bring more knowledge and also learn from my peers. I do so that the product I work on is resilient, valued and safe.",
+    "question_back_home": "Back to start",
     "questions_title": "Ask a question",
     "question_education": "What is your education degree?",
     "question_experience": "How much experience do you have?",
@@ -8,5 +9,9 @@
     "question_resume": "May I download a copy of your resume?",
     "question_contact": "How do I get in touch?",
     "question_community": "Do you contribute to the community in some way?",
-    "questions_helper": "You can navigate by the question number, if you will."
+    "questions_helper": "You can navigate by the question number, if you will.",
+    "resumes_title": "You definitely should!",
+    "resumes_description": "I will try to present you with the downloadable resume corresponding to your language. If it is not available yet, it will be in English.",
+    "resumes_description_helper": "However, don't worry, all available language options will be accessible below.",
+    "resumes_alternative_language": "If you prefer another version:"
 }

@@ -25,6 +25,21 @@ ul li {
     display: flex;
     margin-top: 6px;
     margin-bottom: 6px;
+
+    opacity: 1;
+
+    transition: opacity 0.3s;
+}
+
+ul li.disabled {
+	opacity: 0.6;
+    pointer-events: none;
+
+    transition: opacity 0.3s;
+}
+
+ul li.hidden {
+	display: none;
 }
 
 ul li a {

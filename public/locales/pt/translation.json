@@ -1,6 +1,7 @@
 {
     "greetings": "Olá, meu nome é ",
-    "presentation": "Comecei minha busca por conhecimento individual com cursos de aprendizagem industrial, na área da informática. Hoje em dia trabalho na empresa Pedidos10 e a cada dia evolúo mais corrigindo erros, quebrando paradígmas e aprendendo novas tecnologias. Sei que consigo trazer mais conhecimento e também aprender com meus pares. Trabalho para que o produto da empresa seja mais resiliente, valorizado e seguro.",
+    "presentation": "Ao longo dos anos, meu conhecimento aumentou principalmente de forma autodidata. Aos 18 anos tive minha primeira oportunidade profissional, dois anos focados em aprendizado e evolução. Aos 21 anos tornei-me Scrum Master, um desafio que se revelou fortuito e que me aproximou da Liderança, que pretendo evoluir a partir de agora. Uma diversidade de tecnologias e frameworks que aprendi, mas mais valioso que isso, comunicação, responsabilidade e confiança. Sei que posso trazer mais conhecimento e também aprender com meus colegas. Faço para que o produto em que trabalho seja resistente, valorizado e seguro.",
+    "question_back_home": "Voltar ao inicio",
     "questions_title": "Pergunte",
     "question_education": "Qual seu nível de formação?",
     "question_experience": "Quais são suas experiências?",
@@ -8,5 +9,9 @@
     "question_resume": "Posso baixar uma cópia do seu currículo?",
     "question_contact": "Como entro em contato?",
     "question_community": "Você contribui com a comunidade de alguma forma?",
-    "questions_helper": "Você pode navegar pelo número da pergunta, se quiser."
+    "questions_helper": "Você pode navegar pelo número da pergunta, se quiser.",
+    "resumes_title": "Com toda certeza!",
+    "resumes_description": "Vou tentar te apresentar o currículo para download correspondente ao seu idioma. Caso não esteja disponível ainda, será em Inglês.",
+    "resumes_description_helper": "No entanto, não se preocupe, todas as opções disponíveis de idiomas estarão acessíveis abaixo.",
+    "resumes_alternative_language": "Caso prefira outra versão:"
 }

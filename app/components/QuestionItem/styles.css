@@ -17,6 +17,13 @@
     transition: border 0.2s;
 }
 
+.question-item-container.highlighted {
+    color: white;
+}
+.question-item-container.highlighted .question-item-text {
+    border-left-color: white;
+}
+
 .question-item-number {
     width: 8px;
     text-align: center;
@@ -27,3 +34,4 @@
     border-left: 1px solid var(--orange-pantone);
     padding-left: 8px;
 }
+  
