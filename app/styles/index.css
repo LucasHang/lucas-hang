@@ -32,7 +32,18 @@ h1 {
 }
 
 .content {
+    position: relative;
     border: 8px solid white;
+}
+.content  .media-links {
+    position: absolute;
+    bottom: 0px;
+    right: 8px;
+    display: flex;
+    gap: 0.5rem;
+}
+.content .media-links a {
+    color: var(--mauve);
 }
 
 img {
