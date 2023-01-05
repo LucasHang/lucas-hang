@@ -13,5 +13,8 @@
     "resumes_title": "You definitely should!",
     "resumes_description": "I will try to present you with the downloadable resume corresponding to your language. If it is not available yet, it will be in English.",
     "resumes_description_helper": "However, don't worry, all available language options will be accessible below.",
-    "resumes_alternative_language": "If you prefer another version:"
+    "resumes_alternative_language": "If you prefer another version:",
+    "contacts_title": "Please choose any of the options below",
+    "contacts_address": "Address",
+    "contacts_phone": "Phone"
 }

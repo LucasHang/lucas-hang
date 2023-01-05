@@ -2,3 +2,34 @@ body {
     background-image: url(../../public/images/enhanced-background-5.svg);
     background-size: cover;
 }
+
+.contacts-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.content h4 {
+    margin-bottom: 16px;
+}
+
+.contacts-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.contacts-links a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    color: var(--mauve);
+    background-color: black;
+    border-radius: 4px;
+
+    padding: 6px 16px;
+    margin: 0.5rem 0;
+
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.2);
+}

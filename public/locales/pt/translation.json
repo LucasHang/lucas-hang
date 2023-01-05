@@ -13,5 +13,8 @@
     "resumes_title": "Com toda certeza!",
     "resumes_description": "Vou tentar te apresentar o currículo para download correspondente ao seu idioma. Caso não esteja disponível ainda, será em Inglês.",
     "resumes_description_helper": "No entanto, não se preocupe, todas as opções disponíveis de idiomas estarão acessíveis abaixo.",
-    "resumes_alternative_language": "Caso prefira outra versão:"
+    "resumes_alternative_language": "Caso prefira outra versão:",
+    "contacts_title": "Tranquilamente escolha qualquer uma das opções abaixo",
+    "contacts_address": "Endereço",
+    "contacts_phone": "Telefone"
 }
