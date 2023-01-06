@@ -1,3 +1,12 @@
+.question-item-border {
+    background: linear-gradient(-35deg, var(--orange-pantone), var(--purple) 80%);
+    border-radius: 4px;
+    /* will be changed when the question is selected */
+    padding: 0px;
+
+    transition: padding 0.2s;
+}
+
 .question-item-container {
     display: grid;
     grid-template-columns: auto 1fr;

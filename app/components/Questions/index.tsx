@@ -7,10 +7,6 @@ import QuestionItem, { links as questionItemLinks } from "../QuestionItem";
 
 import stylesUrl from "./styles.css";
 
-/**
- * @todo rainbow border na question selecionada
- */
-
 interface Question {
   number: number;
   textKey: string;
@@ -90,6 +86,7 @@ function Questions() {
                 <QuestionItem
                   number={question.number}
                   text={t(question.textKey)}
+                  selected={question.number === selectedQuestion?.number}
                 />
               </Link>
             </li>

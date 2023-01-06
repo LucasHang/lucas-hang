@@ -11,17 +11,25 @@ interface QuestionItemProps {
   /** @note Number 0 is special and will be highlighted */
   number: number;
   text: string;
+  selected: boolean;
 }
 
-function QuestionItem({ number, text }: QuestionItemProps) {
+function QuestionItem({ number, text, selected }: QuestionItemProps) {
   return (
     <div
-      className={classNames("question-item-container", {
-        highlighted: number === 0,
-      })}
+      className="question-item-border"
+      style={{
+        padding: selected ? 2 : 0,
+      }}
     >
-      <small className="question-item-number">{number}</small>
-      <span className="question-item-text">{text}</span>
+      <div
+        className={classNames("question-item-container", {
+          highlighted: number === 0,
+        })}
+      >
+        <small className="question-item-number">{number}</small>
+        <span className="question-item-text">{text}</span>
+      </div>
     </div>
   );
 }
