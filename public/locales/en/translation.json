@@ -16,5 +16,13 @@
     "resumes_alternative_language": "If you prefer another version:",
     "contacts_title": "Please choose any of the options below",
     "contacts_address": "Address",
-    "contacts_phone": "Phone"
+    "contacts_phone": "Phone",
+    "skills_description": "I'll show you the skills I consider most important along with the experience time for each one. These skills were mainly developed with work experience.",
+    "skills_hard_skill": "Hard Skills",
+    "skills_soft_skill": "Soft Skills",
+    "skills_soft_skill_disclaimer": "Experience omitted given the relativity to the environment of these skills.",
+    "skills_communication": "Communication",
+    "skills_proactivity": "Proactivity",
+    "skills_leadership": "Leadership",
+    "skills_management": "Management"
 }

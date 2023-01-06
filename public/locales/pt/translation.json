@@ -16,5 +16,13 @@
     "resumes_alternative_language": "Caso prefira outra versão:",
     "contacts_title": "Tranquilamente escolha qualquer uma das opções abaixo",
     "contacts_address": "Endereço",
-    "contacts_phone": "Telefone"
+    "contacts_phone": "Telefone",
+    "skills_description": "Eu vou te mostrar as habilidades que considero mais importantes juntamente com o tempo de experiência de cada uma. Estas habilidades foram principalmente desenvolvidas com experiência de trabalho.",
+    "skills_hard_skill": "Habilidades Técnicas",
+    "skills_soft_skill": "Habilidades Interpessoais",
+    "skills_soft_skill_disclaimer": "Experiência omitida dada a relatividade em relação ao ambiente dessas skills.",
+    "skills_communication": "Comunicação",
+    "skills_proactivity": "Proatividade",
+    "skills_leadership": "Liderança",
+    "skills_management": "Gerenciamento"
 }

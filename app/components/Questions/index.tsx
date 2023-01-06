@@ -7,6 +7,10 @@ import QuestionItem, { links as questionItemLinks } from "../QuestionItem";
 
 import stylesUrl from "./styles.css";
 
+/**
+ * @todo rainbow border na question selecionada
+ */
+
 interface Question {
   number: number;
   textKey: string;

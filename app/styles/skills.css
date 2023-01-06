@@ -2,3 +2,53 @@ body {
     background-image: url(../../public/images/enhanced-background-1.svg);
     background-size: cover;
 }
+
+.contacts-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.content p {
+    text-align: center;
+}
+
+.skills-category {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.skills-list {
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+    margin-bottom: 1rem;
+}
+
+.skills-list .skills-item {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+
+    background-color: black;
+    border-radius: 4px;
+    /* border-color will be replaced on component */
+    border-width: 1px;
+    border-style: solid;
+
+    padding: 4px 8px;
+}
+.skills-list .skills-item span {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.skills-list .skills-item span svg {
+    color: yellow;
+}
+.skills-list .skills-item small {
+    color: #aaa
+}
