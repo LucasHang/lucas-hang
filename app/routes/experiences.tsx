@@ -71,7 +71,7 @@ export default function Experiences() {
 
   return (
     <div className="experiences-container">
-      <ContentHeader title={t("question_skill")} />
+      <ContentHeader title={t("question_experience")} />
 
       <div className="content">
         {EXPERIENCES.map((experience, index) => {
