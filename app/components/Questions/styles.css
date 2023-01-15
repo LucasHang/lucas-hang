@@ -11,6 +11,14 @@
     box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.5);
 }
 
+@media screen and (min-width: 1024px) {
+    .questions-container {
+        position: sticky;
+        top: 20px;
+        bottom: 20px;
+    }
+}
+
 h5 {
     text-align: center;
     margin-bottom: 16px;

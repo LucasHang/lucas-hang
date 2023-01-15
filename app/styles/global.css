@@ -12,7 +12,7 @@
     --hs-links: 21 100%;
     --color-foreground: hsl(0, 0%, 100%);
     --color-background: hsla(242, 100%, 21%, 1);
-    --color--content-background: hsla(0, 0%, 14%, 1);
+    --color-content-background: hsla(0, 0%, 14%, 1);
     --color-links: hsl(var(--hs-links) 50%);
     --color-links-hover: hsl(var(--hs-links) 45%);
     --color-border: hsla(228, 65%, 37%, 1);
@@ -161,7 +161,7 @@ h6 {
     justify-content: center;
     align-items: center;
     
-    background-color: var(--color--content-background);
+    background-color: var(--color-content-background);
 
     padding: 3rem;
 }

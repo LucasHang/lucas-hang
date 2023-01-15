@@ -12,7 +12,7 @@
     grid-template-columns: auto 1fr;
     place-items: center stretch;
 
-    background-color: var(--color--content-background);
+    background-color: var(--color-content-background);
     border: 1px solid transparent;
     border-radius: 4px;
 
