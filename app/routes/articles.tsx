@@ -21,7 +21,7 @@ const MAIN_ARTICLES = [
     title:
       "Printing PDF in Node.js with Electron (ElectronForge + pdf-to-printer + webpack)",
     lead: "So you have an Electron app and the feature to print pdf was requested? Come with me",
-    publishedAt: "19/12/2022",
+    publishedAt: "05/06/2022",
     minutesToRead: 3,
     link: "https://medium.com/@_hanglucas/printing-pdf-in-node-js-with-electron-electronforge-pdf-to-printer-webpack-b5c18209cf88",
   },
