@@ -2,3 +2,49 @@ body {
     background-image: url(../../public/images/enhanced-background-6.svg);
     background-size: cover;
 }
+
+.articles-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.content {
+    gap: 1rem;
+}
+
+.content p {
+    text-align: center;
+}
+
+.article-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.article-links hr {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.article-links a {
+    color: var(--color-foreground);
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+}
+
+.article h5 {
+    text-align: start;
+    margin-bottom: 0px;
+    margin-top: 0.5rem;
+}
+
+.article p {
+    text-align: justify;
+}
