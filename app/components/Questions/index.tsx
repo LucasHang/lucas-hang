@@ -18,8 +18,9 @@ const ALL_QUESTIONS: Array<Question> = [
   { number: 2, textKey: "question_experience", goTo: "/experiences" },
   { number: 3, textKey: "question_skill", goTo: "/skills" },
   { number: 4, textKey: "question_resume", goTo: "/resumes" },
-  { number: 5, textKey: "question_contact", goTo: "/contacts" },
-  { number: 6, textKey: "question_community", goTo: "/articles" },
+  { number: 5, textKey: "question_project", goTo: "/projects" },
+  { number: 6, textKey: "question_contact", goTo: "/contacts" },
+  { number: 7, textKey: "question_community", goTo: "/articles" },
   { number: 0, textKey: "question_back_home", goTo: "/" },
 ];
 
