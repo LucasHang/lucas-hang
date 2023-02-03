@@ -27,5 +27,8 @@
     "skills_management": "Management",
     "articles_title": "Once in a while I stop to write an article",
     "articles_description": "I really like the Medium platform, so I write there, I will show you the main articles along with the link to access them all.",
-    "articles_link_to_my_medium": "Access all my articles"
+    "articles_link_to_my_medium": "Access all my articles",
+    "experiences_job_01_description": "I started supporting and making improvements in two internal web systems of the company, the first in PHP with Postgres and the second in Angularjs consuming an API in PHP. During the second year I worked on the development of a new desktop application made in Electron to control orders and printing them, at the same time expanding the company's logistics area, with a PHP system for management by operators and a mobile application with React Native used by delivery men to receive, track and finish order deliveries. Since the beginning of 2022 I have been working as Scrum Master for a team in a new company product for complete internal restaurant management, in addition to helping with development and technical or domain decisions.",
+    "experiences_job_02_description": "Industrial Apprenticeship Course on Support and Maintenance in Microcomputers and Local Networks",
+    "experiences_job_03_description": "Industrial Learning Course in Informatics"
 }

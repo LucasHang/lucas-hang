@@ -27,5 +27,8 @@
     "skills_management": "Gerenciamento",
     "articles_title": "De vez em quando eu paro para escrever um artigo",
     "articles_description": "Gosto muito da plataforma do Medium, por isso escrevo por lá, vou te mostrar os principais artigos junto do link para acessar todos.",
-    "articles_link_to_my_medium": "Acesse todos os meus artigos no Medium"
+    "articles_link_to_my_medium": "Acesse todos os meus artigos no Medium",
+    "experiences_job_01_description": "Iniciei dando suporte e fazendo melhorias em dois sistemas web internos da empresa, o primeiro em PHP com Postgres e o segundo em Angularjs consumindo uma API em PHP. Ao longo do segundo ano trabalhei no desenvolvimento de uma nova aplicação desktop feita em Electron para controle de pedidos e impressão, ao mesmo tempo expandindo a área de logística da empresa, com um sistema PHP para gestão por parte dos operadores e um aplicativo mobile com React Native usada por entregadores para receber, acompanhar e finalizar entregas de pedidos. Desde o inicio de 2022 atuo como Scrum Master de um time em um novo produto da empresa para gestão interna completa de restaurante, além de ajudar no desenvolvimento e em decisões técnicas ou de domínio.",
+    "experiences_job_02_description": "Curso de Aprendizagem Industrial de Suporte e Manutenção em Microcomputadores e Redes Locais",
+    "experiences_job_03_description": "Curso de Aprendizagem Industrial em Informática"
 }

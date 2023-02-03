@@ -10,15 +10,14 @@ import stylesUrl from "~/styles/experiences.css";
 
 const EXPERIENCES = [
   {
-    jobTitle: "Desenvolvedor full stack",
+    jobTitle: "Full-stack Developer",
     companyName: "Pedidos10 Brasil",
-    jobModel: "Tempo integral (Híbrido)",
+    jobModel: "Integral (Hybrid)",
     startDate: "11/2019",
     endDate: null,
     isCurrentJob: true,
-    companyLocatedAt: "Blumenau, Santa Catarina, Brasil",
-    description:
-      "Iniciei dando suporte e fazendo melhorias em dois sistemas web internos da empresa, o primeiro em PHP com Postgres e o segundo em Angularjs consumindo uma API em PHP. Ao longo do segundo ano trabalhei no desenvolvimento de uma nova aplicação desktop feita em Electron para controle de pedidos e impressão, ao mesmo tempo expandindo a área de logística da empresa, com um sistema PHP para gestão por parte dos operadores e um aplicativo mobile com React Native usada por entregadores para receber, acompanhar e finalizar entregas de pedidos. Desde o inicio de 2022 atuo como Scrum Master de um time em um novo produto da empresa para gestão interna completa de restaurante, além de ajudar no desenvolvimento e em decisões técnicas ou de domínio.",
+    companyLocatedAt: "Blumenau, Santa Catarina, Brazil",
+    descriptionKey: "experiences_job_01_description",
     skillsIds: [
       "php",
       "ddd",
@@ -38,26 +37,25 @@ const EXPERIENCES = [
     ],
   },
   {
-    jobTitle: "Aprendiz",
+    jobTitle: "Apprentice",
     companyName: "SENAI/SC",
-    jobModel: "Meio período (Presencial)",
+    jobModel: "Part time (In office)",
     startDate: "01/2018",
     endDate: "12/2018",
     isCurrentJob: false,
-    companyLocatedAt: "São João Batista, Santa Catarina, Brasil",
-    description:
-      "Curso de Aprendizagem Industrial de Suporte e Manutenção em Microcomputadores e Redes Locais",
+    companyLocatedAt: "São João Batista, Santa Catarina, Brazil",
+    descriptionKey: "experiences_job_02_description",
     skillsIds: [],
   },
   {
-    jobTitle: "Aprendiz",
+    jobTitle: "Apprentice",
     companyName: "SENAI/SC",
-    jobModel: "Meio período (Presencial)",
+    jobModel: "Part time (In office)",
     startDate: "01/2017",
     endDate: "12/2017",
     isCurrentJob: false,
-    companyLocatedAt: "São João Batista, Santa Catarina, Brasil",
-    description: "Curso de Aprendizagem Industrial em Informática",
+    companyLocatedAt: "São João Batista, Santa Catarina, Brazil",
+    descriptionKey: "experiences_job_03_description",
     skillsIds: [],
   },
 ];
@@ -76,7 +74,7 @@ export default function Experiences() {
       <div className="content">
         {EXPERIENCES.map((experience, index) => {
           let datesInterval = experience.isCurrentJob
-            ? `Desde ${experience.startDate}`
+            ? `Since ${experience.startDate}`
             : `${experience.startDate} - ${experience.endDate}`;
 
           const skills = getHardSkillsByIds(experience.skillsIds);
@@ -103,11 +101,11 @@ export default function Experiences() {
 
               <small>{experience.companyLocatedAt}</small>
 
-              <p>{experience.description}</p>
+              <p>{t(experience.descriptionKey)}</p>
 
               {Boolean(skills.length) && (
                 <p>
-                  <strong>Habilidades:</strong>{" "}
+                  <strong>Skills:</strong>{" "}
                   {skills.map((s) => s.title).join(", ")}
                 </p>
               )}
