@@ -8,9 +8,9 @@ import stylesUrl from "~/styles/educations.css";
 
 const EDUCATIONS = [
   {
-    title: "Ciência de Dados",
+    title: "Data Science",
     institution: "Descomplica Faculdade Digital",
-    degree: "Tecnólogo",
+    degree: "Technologist",
     startDate: "01/2023",
     endDate: "07/2025",
     skillsIds: [
@@ -22,9 +22,9 @@ const EDUCATIONS = [
     ],
   },
   {
-    title: "Engenharia de Sistemas",
+    title: "Systems development",
     institution: "SENAI/SC",
-    degree: "Técnico em desenvolvimento e manutenção de sistemas",
+    degree: "Systems development and maintenance technician",
     startDate: "02/2018",
     endDate: "07/2019",
     skillsIds: [
@@ -72,7 +72,7 @@ export default function Educations() {
 
               {Boolean(education.skillsIds.length) && (
                 <p>
-                  <strong>Habilidades:</strong> {education.skillsIds.join(", ")}
+                  <strong>Skills:</strong> {education.skillsIds.join(", ")}
                 </p>
               )}
             </div>
