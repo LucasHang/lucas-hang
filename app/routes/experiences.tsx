@@ -10,14 +10,34 @@ import stylesUrl from "~/styles/experiences.css";
 
 const EXPERIENCES = [
   {
+    jobTitle: "Backend Developer",
+    companyName: "Keep Simple",
+    jobModel: "Integral (Remote)",
+    startDate: "02/2023",
+    endDate: null,
+    isCurrentJob: true,
+    companyLocatedAt: "São João Batista, Santa Catarina, Brazil",
+    descriptionKey: "experiences_job_01_description",
+    skillsIds: [
+      "scrum",
+      "typescript",
+      "node",
+      "docker",
+      "git",
+      "sql-server",
+      "azure-devops",
+      "microsoft-azure",
+    ],
+  },
+  {
     jobTitle: "Full-stack Developer",
     companyName: "Pedidos10 Brasil",
     jobModel: "Integral (Hybrid)",
     startDate: "11/2019",
-    endDate: null,
-    isCurrentJob: true,
+    endDate: "02/2023",
+    isCurrentJob: false,
     companyLocatedAt: "Blumenau, Santa Catarina, Brazil",
-    descriptionKey: "experiences_job_01_description",
+    descriptionKey: "experiences_job_02_description",
     skillsIds: [
       "php",
       "ddd",
@@ -44,7 +64,7 @@ const EXPERIENCES = [
     endDate: "12/2018",
     isCurrentJob: false,
     companyLocatedAt: "São João Batista, Santa Catarina, Brazil",
-    descriptionKey: "experiences_job_02_description",
+    descriptionKey: "experiences_job_03_description",
     skillsIds: [],
   },
   {
@@ -55,7 +75,7 @@ const EXPERIENCES = [
     endDate: "12/2017",
     isCurrentJob: false,
     companyLocatedAt: "São João Batista, Santa Catarina, Brazil",
-    descriptionKey: "experiences_job_03_description",
+    descriptionKey: "experiences_job_04_description",
     skillsIds: [],
   },
 ];
