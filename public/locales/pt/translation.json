@@ -1,36 +1,135 @@
 {
-    "greetings": "Olá, meu nome é ",
-    "presentation": "Ao longo dos anos, meu conhecimento aumentou principalmente de forma autodidata. Aos 18 anos tive minha primeira oportunidade profissional, dois anos focados em aprendizado e evolução. Aos 21 anos tornei-me Scrum Master, um desafio que se revelou fortuito e que me aproximou da Liderança, que pretendo evoluir a partir de agora. Uma diversidade de tecnologias e frameworks que aprendi, mas mais valioso que isso, comunicação, responsabilidade e confiança. Sei que posso trazer mais conhecimento e também aprender com meus colegas. Faço para que o produto em que trabalho seja resistente, valorizado e seguro.",
-    "question_back_home": "Voltar ao inicio",
-    "questions_title": "Pergunte",
-    "question_education": "Qual seu nível de formação?",
-    "question_experience": "Quais são suas experiências?",
-    "question_skill": "Quais são suas principais habilidades?",
-    "question_resume": "Posso baixar uma cópia do seu currículo?",
-    "question_project": "Tem algum outro projeto além desse?",
-    "question_contact": "Como entro em contato?",
-    "question_community": "Você contribui com a comunidade de alguma forma?",
-    "questions_helper": "Você pode navegar pelo número da pergunta, se quiser.",
-    "resumes_title": "Com toda certeza!",
-    "resumes_description": "Vou tentar te apresentar o currículo para download correspondente ao seu idioma. Caso não esteja disponível ainda, será em Inglês.",
-    "resumes_description_helper": "No entanto, não se preocupe, todas as opções disponíveis de idiomas estarão acessíveis abaixo.",
-    "resumes_alternative_language": "Caso prefira outra versão:",
-    "contacts_title": "Tranquilamente escolha qualquer uma das opções abaixo",
-    "contacts_address": "Endereço",
-    "contacts_phone": "Telefone",
-    "skills_description": "Eu vou te mostrar as habilidades que considero mais importantes juntamente com o tempo de experiência de cada uma. Estas habilidades foram principalmente desenvolvidas com experiência de trabalho.",
-    "skills_hard_skill": "Habilidades Técnicas",
-    "skills_soft_skill": "Habilidades Interpessoais",
-    "skills_soft_skill_disclaimer": "Experiência omitida dada a relatividade em relação ao ambiente dessas skills.",
-    "skills_communication": "Comunicação",
-    "skills_proactivity": "Proatividade",
-    "skills_leadership": "Liderança",
-    "skills_management": "Gerenciamento",
-    "articles_title": "De vez em quando eu paro para escrever um artigo",
-    "articles_description": "Gosto muito da plataforma do Medium, por isso escrevo por lá, vou te mostrar os principais artigos junto do link para acessar todos.",
-    "articles_link_to_my_medium": "Acesse todos os meus artigos no Medium",
-    "experiences_job_01_description": "Atuo como desenvolvedor backend Node.js dando suporte aos projetos Portal de Multas e Frota360 da empresa Unidas.",
-    "experiences_job_02_description": "Iniciei dando suporte e fazendo melhorias em dois sistemas web internos da empresa, o primeiro em PHP com Postgres e o segundo em Angularjs consumindo uma API em PHP. Ao longo do segundo ano trabalhei no desenvolvimento de uma nova aplicação desktop feita em Electron para controle de pedidos e impressão, ao mesmo tempo expandindo a área de logística da empresa, com um sistema PHP para gestão por parte dos operadores e um aplicativo mobile com React Native usada por entregadores para receber, acompanhar e finalizar entregas de pedidos. Desde o inicio de 2022 atuo como Scrum Master de um time em um novo produto da empresa para gestão interna completa de restaurante, além de ajudar no desenvolvimento e em decisões técnicas ou de domínio.",
-    "experiences_job_03_description": "Curso de Aprendizagem Industrial de Suporte e Manutenção em Microcomputadores e Redes Locais",
-    "experiences_job_04_description": "Curso de Aprendizagem Industrial em Informática"
+  "greetings": "Olá, meu nome é ",
+  "question_back_home": "Voltar ao inicio",
+  "questions_title": "Pergunte",
+  "question_education": "Qual seu nível de formação?",
+  "question_experience": "Quais são suas experiências?",
+  "question_skill": "Quais são suas principais habilidades?",
+  "question_resume": "Posso baixar uma cópia do seu currículo?",
+  "question_project": "Tem algum outro projeto além desse?",
+  "question_contact": "Como entro em contato?",
+  "question_community": "Você contribui com a comunidade de alguma forma?",
+  "questions_helper": "Você pode navegar pelo número da pergunta, se quiser.",
+  "resumes_title": "Com toda certeza!",
+  "resumes_description": "Vou tentar te apresentar o currículo para download correspondente ao seu idioma. Caso não esteja disponível ainda, será em Inglês.",
+  "resumes_description_helper": "No entanto, não se preocupe, todas as opções disponíveis de idiomas estarão acessíveis abaixo.",
+  "resumes_alternative_language": "Caso prefira outra versão:",
+  "contacts_title": "Tranquilamente escolha qualquer uma das opções abaixo",
+  "contacts_address": "Endereço",
+  "contacts_phone": "Telefone",
+  "skills_description": "Eu vou te mostrar as habilidades que considero mais importantes juntamente com o tempo de experiência de cada uma. Estas habilidades foram principalmente desenvolvidas com experiência de trabalho.",
+  "skills_hard_skill": "Habilidades Técnicas",
+  "skills_soft_skill": "Habilidades Interpessoais",
+  "skills_soft_skill_disclaimer": "Experiência omitida dada a relatividade em relação ao ambiente dessas skills.",
+  "skills_communication": "Comunicação",
+  "skills_proactivity": "Proatividade",
+  "skills_leadership": "Liderança",
+  "skills_management": "Gerenciamento",
+  "articles_title": "De vez em quando eu paro para escrever um artigo",
+  "articles_description": "Gosto muito da plataforma do Medium, por isso escrevo por lá, vou te mostrar os principais artigos junto do link para acessar todos.",
+  "articles_link_to_my_medium": "Acesse todos os meus artigos no Medium",
+  "experiences_job_01_description": "Atuo como desenvolvedor backend Node.js dando suporte aos projetos Portal de Multas e Frota360 da empresa Unidas.",
+  "experiences_job_02_description": "Iniciei dando suporte e fazendo melhorias em dois sistemas web internos da empresa, o primeiro em PHP com Postgres e o segundo em Angularjs consumindo uma API em PHP. Ao longo do segundo ano trabalhei no desenvolvimento de uma nova aplicação desktop feita em Electron para controle de pedidos e impressão, ao mesmo tempo expandindo a área de logística da empresa, com um sistema PHP para gestão por parte dos operadores e um aplicativo mobile com React Native usada por entregadores para receber, acompanhar e finalizar entregas de pedidos. Desde o inicio de 2022 atuo como Scrum Master de um time em um novo produto da empresa para gestão interna completa de restaurante, além de ajudar no desenvolvimento e em decisões técnicas ou de domínio.",
+  "experiences_job_03_description": "Curso de Aprendizagem Industrial de Suporte e Manutenção em Microcomputadores e Redes Locais",
+  "experiences_job_04_description": "Curso de Aprendizagem Industrial em Informática",
+  "resume": {
+    "name": "Lucas Hang",
+    "title": "Desenvolvedor Full-Stack",
+    "location": "São João Batista, Santa Catarina, Brasil",
+    "summary": "Como um engenheiro de software apaixonado, trago uma vasta experiência e um forte foco em aprendizado contínuo. Com um histórico de sucesso em funções que vão desde desenvolvimento de backend até Scrum Master, possuo excelentes habilidades de comunicação, responsabilidade e liderança. Minha expertise abrange DevOps, CI/CD e gestão de projetos. Estou determinado a entregar soluções de software resilientes, valiosas e seguras. Pronto para contribuir com minhas habilidades, colaborar com colegas e impulsionar o sucesso em empreendimentos de engenharia de software.",
+    "contact": {
+      "mobile": "+55 (48) 9 9151-8490",
+      "email": "lucas.hhang@gmail.com",
+      "linkedin": "linkedin.com/in/lucas-hang",
+      "portfolio": "lucashang.com.br",
+      "github": "github.com/LucasHang"
+    },
+    "experience": [
+      {
+        "company": "Keep Simple",
+        "position": "Desenvolvedor Back End",
+        "duration": "fevereiro 2023 - Presente (5 meses)",
+        "location": "São João Batista, Santa Catarina, Brasil",
+        "description": "Atuando como desenvolvedor backend Node.js, fornecendo suporte aos projetos Portal de Multas e Frota360 na Unidas."
+      },
+      {
+        "company": "Pedidos10 Brasil",
+        "position": "Desenvolvedor Full Stack",
+        "duration": "novembro 2019 - fevereiro 2023 (3 anos e 4 meses)",
+        "location": "Blumenau, Santa Catarina, Brasil",
+        "description": "Suporte e melhorias em dois sistemas web internos em PHP com Postgres e AngularJS; Desenvolvimento de um aplicativo desktop em Electron para controle e impressão de pedidos; Expansão da área logística com soluções em PHP e React Native; Atuação como Scrum Master no desenvolvimento de um novo produto para gestão interna completa de restaurante utilizando uma stack moderna com Typescrit + Node + React."
+      },
+      {
+        "company": "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
+        "position": "Aprendiz",
+        "duration": "janeiro 2018 - dezembro de 2018 (1 ano)",
+        "location": "Santa Catarina, Brasil",
+        "description": "Curso de Aprendizagem Industrial de Suporte e Manutenção em Microcomputadores e Redes Locais."
+      },
+      {
+        "company": "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
+        "position": "Aprendiz",
+        "duration": "janeiro 2017 - dezembro 2017 (1 ano)",
+        "location": "São João Batista, Santa Catarina, Brasil",
+        "description": "Curso de Aprendizagem Industrial em Informática."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Descomplica Faculdade Digital",
+        "degree": "Tecnólogo, Ciência de Dados",
+        "duration": "janeiro 2023 - julho 2025"
+      },
+      {
+        "institution": "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
+        "degree": "Técnico em Desenvolvimento e Manutenção de Sistemas",
+        "duration": "fevereiro 2018 - julho 2019"
+      }
+    ],
+    "skills": [
+      "Typescript",
+      "Node.js",
+      "React.js",
+      "Next.js",
+      "React Native",
+      "HTML",
+      "CSS",
+      "Postgres",
+      "Docker",
+      "AWS",
+      "Vercel",
+      "TDD",
+      "DDD",
+      "Scrum",
+      "DevOps",
+      "Integração Contínua/Entrega Contínua (CI/CD)",
+      "Gestão de Projetos"
+    ],
+    "certifications": [
+      "EXIN DevOps Professional - Estabilis",
+      "Web Moderno com JavaScript 2019 COMPLETO + Projetos - Udemy",
+      "Scientific Computing with Python - freeCodeCamp",
+      "Clean Code e Clean Architecture - Turma 4 - branas.io",
+      "Docker Course - Full Cycle",
+      "Domain Driven Design Course - Full Cycle",
+      "RabbitMQ Course - Full Cycle"
+    ],
+    "projects": [
+      {
+        "name": "Sort",
+        "description": "Marketplace comercial para venda e participação em sorteios. Construído utilizando Next.js (App router)",
+        "link": "https://sortbrasil.com.br"
+      },
+      {
+        "name": "Task Scorer",
+        "description": "Website para pontuação colaborativa de tarefas de trabalho. Construído utilizando o framework Sveltekit e Firebase como backend.",
+        "link": "https://task-scorer-site.vercel.app/"
+      },
+      {
+        "name": "Portfólio",
+        "description": "Meu website pessoal de portfólio. Construído utilizando Remix.js e i18next para suporte a vários idiomas.",
+        "link": "https://lucashang.com.br"
+      }
+    ]
+  }
 }

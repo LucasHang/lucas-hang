@@ -62,7 +62,7 @@ export default function Contacts() {
           </a>
 
           <a
-            href="https://www.github.com/LucasHang"
+            href="https://github.com/LucasHang"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -70,12 +70,12 @@ export default function Contacts() {
             <div>
               <small>GitHub</small>
               <br />
-              <span>www.github.com/LucasHang</span>
+              <span>github.com/LucasHang</span>
             </div>
           </a>
 
           <a
-            href="https://www.linkedin.com/in/lucas-hang"
+            href="https://linkedin.com/in/lucas-hang"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -83,7 +83,7 @@ export default function Contacts() {
             <div>
               <small>Linkedin</small>
               <br />
-              <span>www.linkedin.com/in/lucas-hang</span>
+              <span>linkedin.com/in/lucas-hang</span>
             </div>
           </a>
         </div>

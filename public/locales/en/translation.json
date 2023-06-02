@@ -1,36 +1,135 @@
 {
-    "greetings": "Hello, my name is ",
-    "presentation": "Over the years, my knowledge increased mostly in a self-taught way. At age 18 I had my first professional opportunity, two years focused in learning and evolution. At age 21 I became Scrum Master, a challenge that has proven to be fortuitous and has brought me closer to Leadership, which I intend to evolve from now on. A diversity of technologies and frameworks I learned, but more valuable than that, communication, responsibility and trust. I know I can bring more knowledge and also learn from my peers. I do so that the product I work on is resilient, valued and safe.",
-    "question_back_home": "Back to start",
-    "questions_title": "Ask a question",
-    "question_education": "What is your education degree?",
-    "question_experience": "How much experience do you have?",
-    "question_skill": "What are your main skills?",
-    "question_resume": "May I download a copy of your resume?",
-    "question_project": "Do you have any other projects?",
-    "question_contact": "How do I get in touch?",
-    "question_community": "Do you contribute to the community in some way?",
-    "questions_helper": "You can navigate by the question number, if you will.",
-    "resumes_title": "You definitely should!",
-    "resumes_description": "I will try to present you with the downloadable resume corresponding to your language. If it is not available yet, it will be in English.",
-    "resumes_description_helper": "However, don't worry, all available language options will be accessible below.",
-    "resumes_alternative_language": "If you prefer another version:",
-    "contacts_title": "Please choose any of the options below",
-    "contacts_address": "Address",
-    "contacts_phone": "Phone",
-    "skills_description": "I'll show you the skills I consider most important along with the experience time for each one. These skills were mainly developed with work experience.",
-    "skills_hard_skill": "Hard Skills",
-    "skills_soft_skill": "Soft Skills",
-    "skills_soft_skill_disclaimer": "Experience omitted given the relativity to the environment of these skills.",
-    "skills_communication": "Communication",
-    "skills_proactivity": "Proactivity",
-    "skills_leadership": "Leadership",
-    "skills_management": "Management",
-    "articles_title": "Once in a while I stop to write an article",
-    "articles_description": "I really like the Medium platform, so I write there, I will show you the main articles along with the link to access them all.",
-    "articles_link_to_my_medium": "Access all my articles",
-    "experiences_job_01_description": "I work as a Nodejs backend developer supporting the projects Portal de Multas and Frota360 of the company Unidas.",
-    "experiences_job_02_description": "I started supporting and making improvements in two internal web systems of the company, the first in PHP with Postgres and the second in Angularjs consuming an API in PHP. During the second year I worked on the development of a new desktop application made in Electron to control orders and printing them, at the same time expanding the company's logistics area, with a PHP system for management by operators and a mobile application with React Native used by delivery men to receive, track and finish order deliveries. Since the beginning of 2022 I have been working as Scrum Master for a team in a new company product for complete internal restaurant management, in addition to helping with development and technical or domain decisions.",
-    "experiences_job_03_description": "Industrial Apprenticeship Course on Support and Maintenance in Microcomputers and Local Networks",
-    "experiences_job_04_description": "Industrial Learning Course in Informatics"
+  "greetings": "Hello, my name is ",
+  "question_back_home": "Back to start",
+  "questions_title": "Ask a question",
+  "question_education": "What is your education degree?",
+  "question_experience": "How much experience do you have?",
+  "question_skill": "What are your main skills?",
+  "question_resume": "May I download a copy of your resume?",
+  "question_project": "Do you have any other projects?",
+  "question_contact": "How do I get in touch?",
+  "question_community": "Do you contribute to the community in some way?",
+  "questions_helper": "You can navigate by the question number, if you will.",
+  "resumes_title": "You definitely should!",
+  "resumes_description": "I will try to present you with the downloadable resume corresponding to your language. If it is not available yet, it will be in English.",
+  "resumes_description_helper": "However, don't worry, all available language options will be accessible below.",
+  "resumes_alternative_language": "If you prefer another version:",
+  "contacts_title": "Please choose any of the options below",
+  "contacts_address": "Address",
+  "contacts_phone": "Phone",
+  "skills_description": "I'll show you the skills I consider most important along with the experience time for each one. These skills were mainly developed with work experience.",
+  "skills_hard_skill": "Hard Skills",
+  "skills_soft_skill": "Soft Skills",
+  "skills_soft_skill_disclaimer": "Experience omitted given the relativity to the environment of these skills.",
+  "skills_communication": "Communication",
+  "skills_proactivity": "Proactivity",
+  "skills_leadership": "Leadership",
+  "skills_management": "Management",
+  "articles_title": "Once in a while I stop to write an article",
+  "articles_description": "I really like the Medium platform, so I write there, I will show you the main articles along with the link to access them all.",
+  "articles_link_to_my_medium": "Access all my articles",
+  "experiences_job_01_description": "I work as a Nodejs backend developer supporting the projects Portal de Multas and Frota360 of the company Unidas.",
+  "experiences_job_02_description": "I started supporting and making improvements in two internal web systems of the company, the first in PHP with Postgres and the second in Angularjs consuming an API in PHP. During the second year I worked on the development of a new desktop application made in Electron to control orders and printing them, at the same time expanding the company's logistics area, with a PHP system for management by operators and a mobile application with React Native used by delivery men to receive, track and finish order deliveries. Since the beginning of 2022 I have been working as Scrum Master for a team in a new company product for complete internal restaurant management, in addition to helping with development and technical or domain decisions.",
+  "experiences_job_03_description": "Industrial Apprenticeship Course on Support and Maintenance in Microcomputers and Local Networks",
+  "experiences_job_04_description": "Industrial Learning Course in Informatics",
+  "resume": {
+    "name": "Lucas Hang",
+    "title": "Full-Stack Developer",
+    "location": "São João Batista, Santa Catarina, Brasil",
+    "summary": "As a passionate software engineer, I bring a wealth of experience and a strong focus on continuous learning. With a successful track record in roles ranging from back end development to Scrum Master, I possess excellent communication, responsibility, and leadership skills. My expertise spans DevOps, CI/CD, and project management. I am driven to deliver resilient, valuable, and secure software solutions. Ready to contribute my skills, collaborate with peers, and drive success in software engineering endeavors.",
+    "contact": {
+      "mobile": "+55 (48) 9 9151-8490",
+      "email": "lucas.hhang@gmail.com",
+      "linkedin": "linkedin.com/in/lucas-hang",
+      "portfolio": "lucashang.com.br",
+      "github": "github.com/LucasHang"
+    },
+    "experience": [
+      {
+        "company": "Keep Simple",
+        "position": "Back End Developer",
+        "duration": "february 2023 - Present (5 months)",
+        "location": "São João Batista, Santa Catarina, Brasil",
+        "description": "Acting as a Node.js backend developer, providing support to the projects Portal de Multas and Frota360 at Unidas."
+      },
+      {
+        "company": "Pedidos10 Brasil",
+        "position": "Full Stack Developer",
+        "duration": "november 2019 - february 2023 (3 years and 4 months)",
+        "location": "Blumenau, Santa Catarina, Brasil",
+        "description": "Supported and improved two internal web systems in PHP with Postgres and AngularJS; Developed a desktop application using Electron for order control and printing; Expanded the logistics area with PHP and React Native solutions; Acted as a Scrum Master in the development of a new product for complete internal restaurant management using a modern stack with Typescript + Node + React."
+      },
+      {
+        "company": "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
+        "position": "Apprentice",
+        "duration": "january 2018 - december de 2018 (1 year)",
+        "location": "Santa Catarina, Brasil",
+        "description": "Course on Industrial Learning for Support and Maintenance in Microcomputers and Local Networks."
+      },
+      {
+        "company": "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
+        "position": "Apprentice",
+        "duration": "january 2017 - december 2017 (1 year)",
+        "location": "São João Batista, Santa Catarina, Brasil",
+        "description": "Course on Industrial Learning in Informatics."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Descomplica Faculdade Digital",
+        "degree": "Technologist, Data Science",
+        "duration": "january 2023 - july 2025"
+      },
+      {
+        "institution": "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
+        "degree": "Systems development and maintenance technician",
+        "duration": "february 2018 - july 2019"
+      }
+    ],
+    "skills": [
+      "Typescript",
+      "Node.js",
+      "React.js",
+      "Next.js",
+      "React Native",
+      "HTML",
+      "CSS",
+      "Postgres",
+      "Docker",
+      "AWS",
+      "Vercel",
+      "TDD",
+      "DDD",
+      "Scrum",
+      "DevOps",
+      "Continuous Integration/Continuous Delivery (CI/CD)",
+      "Project Management"
+    ],
+    "certifications": [
+      "EXIN DevOps Professional - Estabilis",
+      "Web Moderno com JavaScript 2019 COMPLETO + Projetos - Udemy",
+      "Scientific Computing with Python - freeCodeCamp",
+      "Clean Code e Clean Architecture - Turma 4 - branas.io",
+      "Docker Course - Full Cycle",
+      "Domain Driven Design Course - Full Cycle",
+      "RabbitMQ Course - Full Cycle"
+    ],
+    "projects": [
+      {
+        "name": "Sort",
+        "description": "Commercial marketplace to sell and participate in raffles. Built using Next.js (App router)",
+        "link": "https://sortbrasil.com.br"
+      },
+      {
+        "name": "Task Scorer",
+        "description": "Website to score work tasks collaboratively. Built using Sveltekit framework and Firebase as backend.",
+        "link": "https://task-scorer-site.vercel.app/"
+      },
+      {
+        "name": "Portfolio",
+        "description": "My personal portifolio website. Built using Remix.js and i18next for multi-language. ",
+        "link": "https://lucashang.com.br"
+      }
+    ]
+  }
 }

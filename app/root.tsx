@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { json } from "@remix-run/node";
 import type { MetaFunction, LinksFunction, LoaderArgs } from "@remix-run/node";
 import {
@@ -87,6 +88,8 @@ export default function App() {
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+
+        <Analytics />
       </body>
     </html>
   );

@@ -8,9 +8,15 @@ import stylesUrl from "~/styles/projects.css";
 
 const PROJECTS = [
   {
+    title: "Sort",
+    descriptionKey: "resume.projects.0.description",
+    startDate: "02/2023",
+    href: "https://sortbrasil.com.br",
+    stack: ["Next.js", "Prisma", "TailwindCSS", "Supabase", "Vercel"],
+  },
+  {
     title: "Task Scorer",
-    description:
-      "A simple website used for scoring tasks in group used for my team at my current company.",
+    descriptionKey: "resume.projects.1.description",
     startDate: "08/2022",
     endDate: "12/2022",
     href: "https://task-scorer-site.vercel.app/",
@@ -55,7 +61,7 @@ export default function Projects() {
                 <small>{project.href}</small>
               </a>
 
-              <p>{project.description}</p>
+              <p>{t(project.descriptionKey)}</p>
 
               <p>
                 <strong>Stack:</strong> {project.stack.join(", ")}

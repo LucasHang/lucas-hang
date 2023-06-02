@@ -15,15 +15,15 @@ export default function Index() {
   return (
     <div className="content">
       <img
-        src="https://media.licdn.com/dms/image/C4D03AQG15QW6B1NYfg/profile-displayphoto-shrink_400_400/0/1590855285497?e=1677715200&v=beta&t=29CLRHTofOiR75M_MnoaDDm_vSuR3ICzHQRMAbJOVoI"
-        alt="Lucas Hang using sunglasses"
+        src="images/me.jpg"
+        alt="Lucas Hang looking surprised at the camera"
       />
 
       <h1>
         {t("greetings")} <span className="highlight-text">Lucas Hang</span>
       </h1>
 
-      <p>{t("presentation")}</p>
+      <p>{t("resume.summary")}</p>
 
       <div className="media-links">
         <a

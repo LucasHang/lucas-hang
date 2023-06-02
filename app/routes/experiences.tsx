@@ -17,7 +17,7 @@ const EXPERIENCES = [
     endDate: null,
     isCurrentJob: true,
     companyLocatedAt: "São João Batista, Santa Catarina, Brazil",
-    descriptionKey: "experiences_job_01_description",
+    descriptionKey: "resume.experience.0.description",
     skillsIds: [
       "scrum",
       "typescript",
@@ -37,7 +37,7 @@ const EXPERIENCES = [
     endDate: "02/2023",
     isCurrentJob: false,
     companyLocatedAt: "Blumenau, Santa Catarina, Brazil",
-    descriptionKey: "experiences_job_02_description",
+    descriptionKey: "resume.experience.1.description",
     skillsIds: [
       "php",
       "ddd",
@@ -64,7 +64,7 @@ const EXPERIENCES = [
     endDate: "12/2018",
     isCurrentJob: false,
     companyLocatedAt: "São João Batista, Santa Catarina, Brazil",
-    descriptionKey: "experiences_job_03_description",
+    descriptionKey: "resume.experience.2.description",
     skillsIds: [],
   },
   {
@@ -75,7 +75,7 @@ const EXPERIENCES = [
     endDate: "12/2017",
     isCurrentJob: false,
     companyLocatedAt: "São João Batista, Santa Catarina, Brazil",
-    descriptionKey: "experiences_job_04_description",
+    descriptionKey: "resume.experience.3.description",
     skillsIds: [],
   },
 ];
