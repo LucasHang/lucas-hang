@@ -12,11 +12,10 @@
   "questions_helper": "Você pode navegar pelo número da pergunta, se quiser.",
   "resumes_title": "Com toda certeza!",
   "resumes_description": "Vou tentar te apresentar o currículo para download correspondente ao seu idioma. Caso não esteja disponível ainda, será em Inglês.",
-  "resumes_description_helper": "No entanto, não se preocupe, todas as opções disponíveis de idiomas estarão acessíveis abaixo.",
-  "resumes_alternative_language": "Caso prefira outra versão:",
   "contacts_title": "Tranquilamente escolha qualquer uma das opções abaixo",
   "contacts_address": "Endereço",
   "contacts_phone": "Telefone",
+  "contacts_portfolio": "Portfólio",
   "skills_description": "Eu vou te mostrar as habilidades que considero mais importantes juntamente com o tempo de experiência de cada uma. Estas habilidades foram principalmente desenvolvidas com experiência de trabalho.",
   "skills_hard_skill": "Habilidades Técnicas",
   "skills_soft_skill": "Habilidades Interpessoais",
@@ -28,10 +27,11 @@
   "articles_title": "De vez em quando eu paro para escrever um artigo",
   "articles_description": "Gosto muito da plataforma do Medium, por isso escrevo por lá, vou te mostrar os principais artigos junto do link para acessar todos.",
   "articles_link_to_my_medium": "Acesse todos os meus artigos no Medium",
-  "experiences_job_01_description": "Atuo como desenvolvedor backend Node.js dando suporte aos projetos Portal de Multas e Frota360 da empresa Unidas.",
-  "experiences_job_02_description": "Iniciei dando suporte e fazendo melhorias em dois sistemas web internos da empresa, o primeiro em PHP com Postgres e o segundo em Angularjs consumindo uma API em PHP. Ao longo do segundo ano trabalhei no desenvolvimento de uma nova aplicação desktop feita em Electron para controle de pedidos e impressão, ao mesmo tempo expandindo a área de logística da empresa, com um sistema PHP para gestão por parte dos operadores e um aplicativo mobile com React Native usada por entregadores para receber, acompanhar e finalizar entregas de pedidos. Desde o inicio de 2022 atuo como Scrum Master de um time em um novo produto da empresa para gestão interna completa de restaurante, além de ajudar no desenvolvimento e em decisões técnicas ou de domínio.",
-  "experiences_job_03_description": "Curso de Aprendizagem Industrial de Suporte e Manutenção em Microcomputadores e Redes Locais",
-  "experiences_job_04_description": "Curso de Aprendizagem Industrial em Informática",
+  "sections_experience": "Experiência",
+  "sections_education": "Formação",
+  "sections_skills": "Habilidades",
+  "sections_certifications": "Certificações",
+  "sections_projects": "Projetos",
   "resume": {
     "name": "Lucas Hang",
     "title": "Desenvolvedor Full-Stack",
@@ -40,9 +40,9 @@
     "contact": {
       "mobile": "+55 (48) 9 9151-8490",
       "email": "lucas.hhang@gmail.com",
-      "linkedin": "linkedin.com/in/lucas-hang",
-      "portfolio": "lucashang.com.br",
-      "github": "github.com/LucasHang"
+      "linkedin": "https://linkedin.com/in/lucas-hang",
+      "portfolio": "https://lucashang.com.br",
+      "github": "https://github.com/LucasHang"
     },
     "experience": [
       {
