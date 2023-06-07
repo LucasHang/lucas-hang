@@ -15,11 +15,19 @@ const PROJECTS = [
     stack: ["Next.js", "Prisma", "TailwindCSS", "Supabase", "Vercel"],
   },
   {
-    title: "Task Scorer",
+    title: "Self-Driving Car",
     descriptionKey: "resume.projects.1.description",
+    startDate: "06/2023",
+    endDate: "06/2023",
+    href: "https://lucashang.github.io/self-driving-car-js",
+    stack: ["Javascript", "Machine Learning", "Neural Network"],
+  },
+  {
+    title: "Task Scorer",
+    descriptionKey: "resume.projects.2.description",
     startDate: "08/2022",
     endDate: "12/2022",
-    href: "https://task-scorer-site.vercel.app/",
+    href: "https://task-scorer-site.vercel.app",
     stack: [
       "Typescript",
       "SvelteKit",

@@ -117,13 +117,18 @@
     "projects": [
       {
         "name": "Sort",
-        "description": "Marketplace comercial para venda e participação em sorteios. Construído utilizando Next.js (App router)",
+        "description": "Marketplace comercial para venda e participação em sorteios. Construído utilizando Next.js (App router).",
         "link": "https://sortbrasil.com.br"
+      },
+      {
+        "name": "Carro Autônomo",
+        "description": "Website simples para praticar aprendizado de máquina e redes neurais",
+        "link": "https://lucashang.github.io/self-driving-car-js"
       },
       {
         "name": "Task Scorer",
         "description": "Website para pontuação colaborativa de tarefas de trabalho. Construído utilizando o framework Sveltekit e Firebase como backend.",
-        "link": "https://task-scorer-site.vercel.app/"
+        "link": "https://task-scorer-site.vercel.app"
       },
       {
         "name": "Portfólio",
