@@ -2,6 +2,7 @@ import type { LinksFunction } from "@remix-run/node";
 import classNames from "classnames";
 
 import stylesUrl from "./styles.css";
+import MagicWand from "../Icons/MagicWand";
 
 export const links: LinksFunction = () => {
   return [{ rel: "stylesheet", href: stylesUrl }];
@@ -15,6 +16,8 @@ interface QuestionItemProps {
 }
 
 function QuestionItem({ number, text, selected }: QuestionItemProps) {
+  const isAskAI = number === 8;
+
   return (
     <div
       className="question-item-border"
@@ -28,7 +31,10 @@ function QuestionItem({ number, text, selected }: QuestionItemProps) {
         })}
       >
         <small className="question-item-number">{number}</small>
-        <span className="question-item-text">{text}</span>
+        <span className="question-item-text">
+          {text}
+          {isAskAI && <MagicWand />}
+        </span>
       </div>
     </div>
   );

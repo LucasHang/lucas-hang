@@ -9,6 +9,7 @@
   "question_project": "Tem algum outro projeto além desse?",
   "question_contact": "Como entro em contato?",
   "question_community": "Você contribui com a comunidade de alguma forma?",
+  "question_askAI": "Pergunte para a IA",
   "questions_helper": "Você pode navegar pelo número da pergunta, se quiser.",
   "resumes_title": "Com toda certeza!",
   "resumes_description": "Vou tentar te apresentar o currículo para download correspondente ao seu idioma. Caso não esteja disponível ainda, será em Inglês.",
@@ -32,10 +33,12 @@
   "sections_skills": "Habilidades",
   "sections_certifications": "Certificações",
   "sections_projects": "Projetos",
+  "askAI_title": "Pergunte o que quiser",
+  "askAI_description": "Dentro dos dados fornecidos, a AI tentará responder da melhor maneira possível",
   "resume": {
     "name": "Lucas Hang",
     "title": "Desenvolvedor Full-Stack",
-    "location": "São João Batista, Santa Catarina, Brasil",
+    "location": "Itajaí, Santa Catarina, Brasil",
     "summary": "Como um engenheiro de software apaixonado, trago uma vasta experiência e um forte foco em aprendizado contínuo. Com um histórico de sucesso em funções que vão desde desenvolvimento de backend até Scrum Master, possuo excelentes habilidades de comunicação, responsabilidade e liderança. Minha expertise abrange DevOps, CI/CD e gestão de projetos. Estou determinado a entregar soluções de software resilientes, valiosas e seguras. Pronto para contribuir com minhas habilidades, colaborar com colegas e impulsionar o sucesso em empreendimentos de engenharia de software.",
     "contact": {
       "mobile": "+55 (48) 9 9151-8490",

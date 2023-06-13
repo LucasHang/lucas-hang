@@ -9,6 +9,7 @@
   "question_project": "Do you have any other projects?",
   "question_contact": "How do I get in touch?",
   "question_community": "Do you contribute to the community in some way?",
+  "question_askAI": "Ask to AI",
   "questions_helper": "You can navigate by the question number, if you will.",
   "resumes_title": "You definitely should!",
   "resumes_description": "I will try to present you with the downloadable resume corresponding to your language. If it is not available yet, it will be in English.",
@@ -32,10 +33,12 @@
   "sections_skills": "Skills",
   "sections_certifications": "Certifications",
   "sections_projects": "Projects",
+  "askAI_title": "Ask anything",
+  "askAI_description": "Given the available data, the AI will try to answer your question the best it can",
   "resume": {
     "name": "Lucas Hang",
     "title": "Full-Stack Developer",
-    "location": "São João Batista, Santa Catarina, Brasil",
+    "location": "Itajaí, Santa Catarina, Brasil",
     "summary": "As a passionate software engineer, I bring a wealth of experience and a strong focus on continuous learning. With a successful track record in roles ranging from back end development to Scrum Master, I possess excellent communication, responsibility, and leadership skills. My expertise spans DevOps, CI/CD, and project management. I am driven to deliver resilient, valuable, and secure software solutions. Ready to contribute my skills, collaborate with peers, and drive success in software engineering endeavors.",
     "contact": {
       "mobile": "+55 (48) 9 9151-8490",

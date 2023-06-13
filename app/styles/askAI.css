@@ -1,0 +1,51 @@
+body {
+  background-image: url(../../public/images/enhanced-background-4.svg);
+  background-size: cover;
+}
+
+.askAI-container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.content {
+  gap: 1rem;
+}
+
+.content p {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+form input {
+  flex: 1;
+}
+
+form button {
+  height: 36px;
+  width: 50px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--purple);
+  color: white;
+  font-size: 18px;
+}
+
+.response {
+  min-height: 200px;
+}
+
+.response p {
+  text-align: justify;
+  max-width: 840px;
+}

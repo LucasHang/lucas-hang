@@ -21,6 +21,7 @@ const ALL_QUESTIONS: Array<Question> = [
   { number: 5, textKey: "question_project", goTo: "/projects" },
   { number: 6, textKey: "question_contact", goTo: "/contacts" },
   { number: 7, textKey: "question_community", goTo: "/articles" },
+  { number: 8, textKey: "question_askAI", goTo: "/askAI" },
   { number: 0, textKey: "question_back_home", goTo: "/" },
 ];
 
@@ -49,6 +50,10 @@ function Questions() {
 
   useEffect(() => {
     function onKeyPress(e: KeyboardEvent) {
+      if (!e.key || e.key === " ") {
+        return;
+      }
+
       const keyNumber = Number(e.key);
       if (!Number.isNaN(keyNumber)) {
         const question = ALL_QUESTIONS.find((q) => q.number === keyNumber);
