@@ -19,7 +19,7 @@ const PROJECTS = [
     descriptionKey: "resume.projects.1.description",
     startDate: "06/2023",
     endDate: "06/2023",
-    href: "https://lucashang.github.io/self-driving-car-js",
+    href: "https://self-driving-car.lucashang.com.br",
     stack: ["Javascript", "Machine Learning", "Neural Network"],
   },
   {
