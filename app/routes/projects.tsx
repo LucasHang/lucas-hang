@@ -27,7 +27,7 @@ const PROJECTS = [
     descriptionKey: "resume.projects.2.description",
     startDate: "08/2022",
     endDate: "12/2022",
-    href: "https://task-scorer-site.vercel.app",
+    href: "https://task-scorer.lucashang.com.br",
     stack: [
       "Typescript",
       "SvelteKit",
