@@ -33,6 +33,7 @@ const HARD_SKILLS = [
     experience: "2-4 anos",
     color: "#61dbfb",
   },
+  { id: "python", title: "Python", experience: "1-2 anos", color: "#FFD43B" },
   { id: "html5", title: "HTML5", experience: "4-6 anos", color: "#e34c26" },
   { id: "css3", title: "CSS3", experience: "4-6 anos", color: "#2965f1" },
   { id: "git", title: "GIT", experience: "4-6 anos", color: "#f1502f" },
@@ -60,11 +61,22 @@ const HARD_SKILLS = [
   { id: "docker", title: "Docker", experience: "2 anos", color: "#0db7ed" },
   { id: "scrum", title: "Scrum", experience: "2-3 anos", color: "#d6aaff" },
   { id: "aws", title: "AWS", experience: "1-2 anos", color: "#ff9900" },
-  { id: "python", title: "Python", experience: "1-2 anos", color: "#FFD43B" },
   {
-    id: "data-analytics",
-    title: "PostHog / GA4 / HubSpot",
+    id: "posthog",
+    title: "PostHog",
     experience: "1-2 anos",
+    color: "#151515",
+  },
+  {
+    id: "google-analytics",
+    title: "GA4",
+    experience: "1 ano",
+    color: "#F9AB00",
+  },
+  {
+    id: "hubspot",
+    title: "HubSpot",
+    experience: "1 ano",
     color: "#FF7A59",
   },
 ];

@@ -23,23 +23,7 @@ export async function generateResumePdf(locale: "pt" | "en") {
       { text: data.name, fontSize: 20, bold: true },
       { text: data.title, fontSize: 14, margin: [0, 0, 0, 10] },
 
-      {
-        columns: [
-          { text: data.location, fontSize: 12 },
-          {
-            width: "*",
-            text: "", // filler to push right column
-          },
-          {
-            width: "auto",
-            stack: data.languages.map((lang: any) => ({
-              text: `${lang.label} (${lang.level})`,
-              fontSize: 10,
-            })),
-          },
-        ],
-        margin: [0, 0, 0, 10],
-      },
+      { text: data.location, fontSize: 12, margin: [0, 0, 0, 10] },
 
       {
         columns: [
@@ -58,6 +42,17 @@ export async function generateResumePdf(locale: "pt" | "en") {
               },
               { text: `GitHub: ${data.contact.github}`, fontSize: 10 },
             ],
+          },
+          {
+            width: "*",
+            text: "", // filler to push right column
+          },
+          {
+            width: "auto",
+            stack: data.languages.map((lang: any) => ({
+              text: `${lang.label} (${lang.level})`,
+              fontSize: 10,
+            })),
           },
         ],
         margin: [0, 0, 0, 10],
