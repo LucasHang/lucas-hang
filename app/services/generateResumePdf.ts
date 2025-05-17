@@ -23,18 +23,43 @@ export async function generateResumePdf(locale: "pt" | "en") {
       { text: data.name, fontSize: 20, bold: true },
       { text: data.title, fontSize: 14, margin: [0, 0, 0, 10] },
 
-      { text: data.location, fontSize: 12, margin: [0, 0, 0, 10] },
-
-      { text: `${t("contacts_phone")}: ${data.contact.mobile}`, fontSize: 10 },
-      { text: `Email: ${data.contact.email}`, fontSize: 10 },
-      { text: `LinkedIn: ${data.contact.linkedin}`, fontSize: 10 },
       {
-        text: `${t("contacts_portfolio")}: ${data.contact.portfolio}`,
-        fontSize: 10,
+        columns: [
+          { text: data.location, fontSize: 12 },
+          {
+            width: "*",
+            text: "", // filler to push right column
+          },
+          {
+            width: "auto",
+            stack: data.languages.map((lang: any) => ({
+              text: `${lang.label} (${lang.level})`,
+              fontSize: 10,
+            })),
+          },
+        ],
+        margin: [0, 0, 0, 10],
       },
+
       {
-        text: `GitHub: ${data.contact.github}`,
-        fontSize: 10,
+        columns: [
+          {
+            width: "50%",
+            stack: [
+              {
+                text: `${t("contacts_phone")}: ${data.contact.mobile}`,
+                fontSize: 10,
+              },
+              { text: `Email: ${data.contact.email}`, fontSize: 10 },
+              { text: `LinkedIn: ${data.contact.linkedin}`, fontSize: 10 },
+              {
+                text: `${t("contacts_portfolio")}: ${data.contact.portfolio}`,
+                fontSize: 10,
+              },
+              { text: `GitHub: ${data.contact.github}`, fontSize: 10 },
+            ],
+          },
+        ],
         margin: [0, 0, 0, 10],
       },
 

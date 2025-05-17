@@ -37,9 +37,9 @@
   "askAI_description": "Given the available data, the AI will try to answer your question the best it can",
   "resume": {
     "name": "Lucas Hang",
-    "title": "Full-Stack Developer",
-    "location": "Itajaí, Santa Catarina, Brasil",
-    "summary": "As a passionate software engineer, I bring a wealth of experience and a strong focus on continuous learning. With a successful track record in roles ranging from back end development to Scrum Master, I possess excellent communication, responsibility, and leadership skills. My expertise spans DevOps, CI/CD, and project management. I am driven to deliver resilient, valuable, and secure software solutions. Ready to contribute my skills, collaborate with peers, and drive success in software engineering endeavors.",
+    "title": "Backend Specialist",
+    "location": "Santa Catarina, Brasil",
+    "summary": "As a passionate software engineer, I bring a wealth of experience and a strong focus on continuous learning. With a successful track record in roles ranging from back end development  to Scrum Master, I possess excellent communication, responsibility, and leadership skills. My  expertise spans DevOps, CI/CD, project management and Data Analytics. I am driven to deliver resilient,  valuable, and secure software solutions as well with data insights. Ready to contribute my skills, collaborate with peers,  and drive success in software engineering endeavors.",
     "contact": {
       "mobile": "+55 (48) 9 9151-8490",
       "email": "lucas.hhang@gmail.com",
@@ -47,12 +47,24 @@
       "portfolio": "https://lucashang.com.br",
       "github": "https://github.com/LucasHang"
     },
+    "languages": [
+      { "label": "Portuguese", "level": "Native" },
+      { "label": "English", "level": "Fluent" },
+      { "label": "French", "level": "Intermediary" }
+    ],
     "experience": [
+      {
+        "company": "TRACTIAN",
+        "position": "Back-End Specialist",
+        "duration": "january 2025 - Present",
+        "location": "Santa Catarina, Brasil",
+        "description": "Acting as a backend specialist, my responsibilities range from Project Management, Code Development, Observability and Performance ensuring and Data Analytics integration to achieve meaningful insights. Working in the continuous improvement of products like: tractian.com (main website), academy.tractian.com (industrial courses platform), tractian.com/events (own events platform), careers.tractian.com (careers page), among others… Responsible for analytics integration and value return, strongly working with PostHog, HubSpot, SQL, and other data empowerment tools."
+      },
       {
         "company": "Keep Simple",
         "position": "Back End Developer",
-        "duration": "february 2023 - Present (5 months)",
-        "location": "São João Batista, Santa Catarina, Brasil",
+        "duration": "february 2023 - january 2025",
+        "location": "Santa Catarina, Brasil",
         "description": "Acting as a Node.js backend developer, providing support to the projects Portal de Multas and Frota360 at Unidas."
       },
       {
@@ -97,6 +109,7 @@
       "React Native",
       "HTML",
       "CSS",
+      "Python",
       "Postgres",
       "Docker",
       "AWS",
@@ -106,7 +119,8 @@
       "Scrum",
       "DevOps",
       "Continuous Integration/Continuous Delivery (CI/CD)",
-      "Project Management"
+      "Project Management",
+      "PostHog / GA4 / HubSpot"
     ],
     "certifications": [
       "EXIN DevOps Professional - Estabilis",
@@ -118,6 +132,11 @@
       "RabbitMQ Course - Full Cycle"
     ],
     "projects": [
+      {
+        "name": "Entregas10",
+        "description": "Commercial project developed to the company DEV10. It's a whole project including Website, Server and App. A logistics product, modern and made to high scalability and availability using modern stack Node with Nest, AWS Cloud and AWS SQS to manage queues. Frontend built using Next v15+ focused on server actions. App built with react-native with offline-first approach and native integration with POS machines and realtime geolocation tracking.",
+        "link": "https://entregas10.com.br"
+      },
       {
         "name": "Sort",
         "description": "Commercial marketplace to sell and participate in raffles. Built using Next.js (App router).",

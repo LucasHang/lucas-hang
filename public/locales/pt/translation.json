@@ -37,9 +37,9 @@
   "askAI_description": "Dentro dos dados fornecidos, a AI tentará responder da melhor maneira possível",
   "resume": {
     "name": "Lucas Hang",
-    "title": "Desenvolvedor Full-Stack",
-    "location": "Itajaí, Santa Catarina, Brasil",
-    "summary": "Como um engenheiro de software apaixonado, trago uma vasta experiência e um forte foco em aprendizado contínuo. Com um histórico de sucesso em funções que vão desde desenvolvimento de backend até Scrum Master, possuo excelentes habilidades de comunicação, responsabilidade e liderança. Minha expertise abrange DevOps, CI/CD e gestão de projetos. Estou determinado a entregar soluções de software resilientes, valiosas e seguras. Pronto para contribuir com minhas habilidades, colaborar com colegas e impulsionar o sucesso em empreendimentos de engenharia de software.",
+    "title": "Especialista Backend",
+    "location": "Santa Catarina, Brasil",
+    "summary": "Como um engenheiro de software apaixonado, trago uma vasta experiência e um forte foco em  aprendizado contínuo. Com um histórico de sucesso em funções que vão desde  desenvolvimento de backend até Scrum Master, possuo excelentes habilidades de comunicação,  responsabilidade e liderança. Minha expertise abrange DevOps, CI/CD e gestão de projetos e Análise de dados.  Estou determinado a entregar soluções de software resilientes, valiosas e seguras. Pronto para  contribuir com minhas habilidades, colaborar com colegas e impulsionar o sucesso em  empreendimentos de engenharia de software.",
     "contact": {
       "mobile": "+55 (48) 9 9151-8490",
       "email": "lucas.hhang@gmail.com",
@@ -47,12 +47,24 @@
       "portfolio": "https://lucashang.com.br",
       "github": "https://github.com/LucasHang"
     },
+    "languages": [
+      { "label": "Português", "level": "Nativo" },
+      { "label": "Inglês", "level": "Fluente" },
+      { "label": "Francês", "level": "Intermediário" }
+    ],
     "experience": [
+      {
+        "company": "TRACTIAN",
+        "position": "Especialista Back End",
+        "duration": "janeiro 2025 - Presente",
+        "location": "Santa Catarina, Brasil",
+        "description": "Atuando como um especialista em Backend, minhas responsabilidades abrangiam Gestão de Projetos, Desenvolvimento de Código, garantia de Observabilidade e Performance e integração de Análise de Dados com o objetivo de obter insights significantes. Trabalhando no desenvolvimento conínuo de produtos como: tractian.com (website principal), academy.tractian.com (plataforma de cursos industriais), tractian.com/events (plataforma própria de eventos), careers.tractian.com (página de carreiras), entre outros… Responsável pela integração de ferramentas analíticas e retorno de valor, trabalhando fortemente com PostHog, HubSpot, SQL, e outras ferramentas de empoderamento de dados."
+      },
       {
         "company": "Keep Simple",
         "position": "Desenvolvedor Back End",
-        "duration": "fevereiro 2023 - Presente (5 meses)",
-        "location": "São João Batista, Santa Catarina, Brasil",
+        "duration": "fevereiro 2023 - janeiro 2025",
+        "location": "Santa Catarina, Brasil",
         "description": "Atuando como desenvolvedor backend Node.js, fornecendo suporte aos projetos Portal de Multas e Frota360 na Unidas."
       },
       {
@@ -97,6 +109,7 @@
       "React Native",
       "HTML",
       "CSS",
+      "Python",
       "Postgres",
       "Docker",
       "AWS",
@@ -106,7 +119,8 @@
       "Scrum",
       "DevOps",
       "Integração Contínua/Entrega Contínua (CI/CD)",
-      "Gestão de Projetos"
+      "Gestão de Projetos",
+      "PostHog / GA4 / HubSpot"
     ],
     "certifications": [
       "EXIN DevOps Professional - Estabilis",
@@ -118,6 +132,11 @@
       "RabbitMQ Course - Full Cycle"
     ],
     "projects": [
+      {
+        "name": "Entregas10",
+        "description": "Projeto comercial desenvolvido para a empresa DEV10. Um projeto completo incluindo website, servidor, e aplicativo. Um produto de logística moderno e feito para alta escalabilidade e disponibilidade usando ferramentas atuais como Node com Nest, AWS cloud and AWS SQS para gerenciamento de filas. Frontend construído com Next v15+ focando em server actions. O app foi feito com react-native com foco em ser offline-first e possui integração nativa com máquinas POS e monitoramento em tempo real de posição geográfica.",
+        "link": "https://entregas10.com.br"
+      },
       {
         "name": "Sort",
         "description": "Marketplace comercial para venda e participação em sorteios. Construído utilizando Next.js (App router).",
